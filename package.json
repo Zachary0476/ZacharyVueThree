@@ -1,11 +1,13 @@
 {
   "private": true,
   "workspaces": [
+    
     "packages/*"
   ],
   "scripts": {
     "build": "node scripts/build.js"
   },
+  "type" :"module" ,
   "name": "20230422",
   "version": "1.0.0",
   "main": "index.js",
@@ -19,5 +21,11 @@
     "execa": "5.1.1",
     "rollup": "^3.20.7",
     "rollup-plugin-typescript2": "^0.34.1"
-  }
+  },
+  "description": "抄一套 Vue3源码",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": ""
 }
