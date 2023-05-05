@@ -6,7 +6,7 @@
   "buildOptions": {
     "name": "VueShared",
     "formats": [
-      "esm-builder",
+      "esm-bundler",
       "cjs"
     ]
   }
